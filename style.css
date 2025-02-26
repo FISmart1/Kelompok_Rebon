@@ -79,13 +79,13 @@ body {
 
 .content {
     text-align: justify;
-    max-width: 600px;
+    max-width: 75%;
     margin: auto;
     margin-bottom: 3%;
 }
 
 .content h1 {
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .btn {
