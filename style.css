@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0 5%;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #141E30, #243B55);
+}
+
+.judul {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.jumbotron {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    height: 60px;
+}
+
+.pagination .page-item .page-link {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.container .content {
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+.container .content h1 {
+    font-size: 120px;
+    color: red;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    border-top: 1px solid white;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.content {
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.content h1 {
+    font-size: 150px;
+}
+
+.btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.d-none {
+    display: none;
+}
